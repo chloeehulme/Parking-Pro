@@ -1,7 +1,7 @@
 '''
-   Generates a GUI that users can interact with to select a parling type for
+   Generates a GUI that users can interact with to select a parking type for
    the rover. Sends the selected parking type via bluetooth to the rover.
-   Uses:  Tinter, Pyserial
+   Uses:  Tkinter, Pyserial
    Author: Chloe Hulme
 '''
 
