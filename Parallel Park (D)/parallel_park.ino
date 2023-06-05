@@ -1,5 +1,5 @@
 /*
- * This program executes a reverse park on both RHS and LHS using the Pololu Zumo rover. This
+ * This program executes a parallel park on the RHS using the Pololu Zumo rover. This
  * program has been adapted from code used in the Zumo based labs.
  * Author: Chloe Hulme
  */
