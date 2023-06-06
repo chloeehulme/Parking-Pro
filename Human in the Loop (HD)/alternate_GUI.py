@@ -46,9 +46,9 @@ def close():
     win.destroy()
 
 # Create widgets
-Forward = Button(win, text='Forward Park', font=myFont, command=set_forward_park, bg='green', height=3, width=15)
-Reverse = Button(win, text='Reverse Park', font=myFont, command=set_reverse_park, bg='orange', height=3, width=15)
-Parallel = Button(win, text='Parallel Park', font=myFont, command=set_parallel_park, bg='red', height=3, width=15)
+Forward = Button(win, text='Forward Park', font=myFont, command=set_forward_park, fg='#9898F5', height=3, width=15)
+Reverse = Button(win, text='Reverse Park', font=myFont, command=set_reverse_park, fg='orange', height=3, width=15)
+Parallel = Button(win, text='Parallel Park', font=myFont, command=set_parallel_park, fg='red', height=3, width=15)
 
 # Positions widgets
 Forward.grid(row=0, column=1)
