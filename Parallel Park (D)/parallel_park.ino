@@ -47,11 +47,6 @@ void loop()
   int front = ultrasonic(echoPinFront,trigPinFront);
   int right = ultrasonic(echoPinRight,trigPinRight);
 
-  String message = "";
-  message = message + "[" + left + "cm," + front + "cm," + right + "cm]\n";
-  Serial.print(message);
-  delay(500); //wait for 1/10th of a second.
-
   if (!parked) {
     if (right > 60) {
       while (right > 10) {
